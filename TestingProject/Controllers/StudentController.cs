@@ -97,7 +97,7 @@ namespace TestingProject.Controllers
             SetResponse response = client.Set("Student/" + student.student_id,student);
             return RedirectToAction("Index");
         }
-
+        //delete student
         [HttpGet]
         public ActionResult Delete(String id)
         {
